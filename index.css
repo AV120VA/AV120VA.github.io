@@ -1,0 +1,40 @@
+* {
+  font-family: "Share Tech Mono", monospace;
+}
+
+body {
+  background-color: #121212;
+}
+
+.nav-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  color: white;
+  font-size: 2.3em;
+  margin-left: 5%;
+}
+
+.link-box {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin-right: 5%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.45em;
+  cursor: pointer;
+}
+
+.resume {
+  border: 1px solid white;
+  padding: 5px 20px 5px 20px;
+  border-radius: 50px;
+}
