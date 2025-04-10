@@ -4,7 +4,8 @@
 
 body {
   background-color: #121212;
-  height: 100vh;
+  height: 100%;
+  padding-bottom: 20px;
 }
 
 .nav-container {
@@ -46,7 +47,7 @@ p {
 
 .description {
   margin-left: 7%;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .description-large {
@@ -60,7 +61,7 @@ p {
 .project-showcase {
   display: flex;
   width: 100%;
-  margin-top: 8%;
+  margin-top: 3%;
   justify-content: space-around;
 }
 
@@ -75,4 +76,21 @@ p {
   color: white;
   font-size: 1.5em;
   align-self: center;
+}
+.typing-animation {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  max-width: 100%;
+  animation: typing 2s steps(40, end) forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
